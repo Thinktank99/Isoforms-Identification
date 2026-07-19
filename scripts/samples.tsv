@@ -1,0 +1,5 @@
+sample	r1	r2
+ERR9871746	../data/fastq/ERR9871746_1.fastq.gz	../data/fastq/ERR9871746_2.fastq.gz
+ERR9871747	../data/fastq/ERR9871747_1.fastq.gz	../data/fastq/ERR9871747_2.fastq.gz
+ERR9871748	../data/fastq/ERR9871748_1.fastq.gz	../data/fastq/ERR9871748_2.fastq.gz
+ERR9871749	../data/fastq/ERR9871749_1.fastq.gz	../data/fastq/ERR9871749_2.fastq.gz
