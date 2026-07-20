@@ -3,3 +3,13 @@
 .Rhistory
 .RData
 .snakemake/
+
+# Reference genome and raw reads — too large for git, fetched separately
+*.fastq.gz
+genome.fna
+genome.fna.fai
+genome.dict
+genomic.gtf
+star_index/
+dropseq_ref/
+results/06_align_count/
