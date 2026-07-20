@@ -1,0 +1,5 @@
+object	stage	cells_before	cells_after_qc	cells_after_doubletfinder
+ERR9871746.raw	all_cells	12489	6650	6099
+ERR9871747.raw	all_cells	12089	3071	2920
+ERR9871748.raw	all_cells	15865	10215	9125
+ERR9871749.raw	all_cells	15236	5198	4864
