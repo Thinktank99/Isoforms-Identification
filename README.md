@@ -42,23 +42,23 @@ Per-sample, per-transcript read counts (from the genome annotation's alternative
 
 QC-pass rates vary considerably by sample (25–64%), consistent with differences in raw library quality/ambient RNA content rather than a fixed cutoff issue:
 
-![ERR9871746 QC](results/qc/ERR9871746_raw_qc_violin.png)
-![ERR9871747 QC](results/qc/ERR9871747_raw_qc_violin.png)
-![ERR9871748 QC](results/qc/ERR9871748_raw_qc_violin.png)
-![ERR9871749 QC](results/qc/ERR9871749_raw_qc_violin.png)
+![ERR9871746 QC](Results/qc/ERR9871746_raw_qc_violin.png)
+![ERR9871747 QC](Results/qc/ERR9871747_raw_qc_violin.png)
+![ERR9871748 QC](Results/qc/ERR9871748_raw_qc_violin.png)
+![ERR9871749 QC](Results/qc/ERR9871749_raw_qc_violin.png)
 
 ### Clustering
 
 Integration of the four QC'd samples yielded **22 clusters** across 23,008 cells.
 
-![Integrated UMAP by cluster](results/clustering/integrated_umap_clusters.png)
+![Integrated UMAP by cluster](Results/clustering/integrated_umap_clusters.png)
 
 ### Cluster identity
 
 Comparing this re-run's clustering against a previously published cell-type labeling for the same clusters shows the same 22-cluster topology, labeled with recognizable tissue/cell-type categories: segment addition zone (SAZ, clusters 2/7), mesoderm (3/9), leg (4/6), stripe/segment-mediating zone (SMZ, 5), peripheral nervous system (PNS, 8), posterior compartment (10), endoderm (11), pedipalp (12/18), hemocytes (13/17/20), central nervous system (CNS, 14), and posterior/anterior "Pc" populations (15/19, 16/21).
 
-![Cluster identities — this re-run](results/clustering/UMAP_Clusters.png)
-![Cluster identities — published labeling](results/clustering/umap_paper_labels.png)
+![Cluster identities — this re-run](Results/clustering/UMAP_Clusters.png)
+![Cluster identities — published labeling](Results/clustering/umap_paper_labels.png)
 
 Two clusters left as **"Undetermined"** in the published labeling (clusters 0 and 1) resolve to specific marker-gene identities in this re-run: cluster 0's top differential markers align with **netrin-1**, and cluster 1's with an **ecdysone receptor**-associated gene — both plausible given their roles in neural guidance and molting/developmental timing, respectively, though this identification is based on marker genes alone and hasn't been validated further (e.g. in situ).
 
@@ -76,16 +76,16 @@ Three representative examples (proportions from `results/isoforms/variable_isofo
 - **LOC107436484** — XM_043040168.2 is the exclusive isoform in ERR9871746/47 (100%), drops to 19.5% in ERR9871748, and disappears entirely (0%) in ERR9871749, where two additional isoforms (XM_071179417.1, XM_071179418.1, both entirely absent in the first two samples) each account for 50%.
 - **LOC107457063** — a three-way switch: XM_071180825.1 dominates ERR9871746 (100%) and largely disappears elsewhere; XM_043044375.2 dominates ERR9871747 only (96.1%); XM_043044377.2 dominates both ERR9871748 and ERR9871749 (81–82%) but is entirely absent from the first two samples.
 
-![LOC107436484](results/isoforms/isoform_LOC107436484.png)
-![LOC107438554](results/isoforms/isoform_LOC107438554.png)
-![LOC107439500](results/isoforms/isoform_LOC107439500.png)
-![LOC107442251](results/isoforms/isoform_LOC107442251.png)
-![LOC107442412](results/isoforms/isoform_LOC107442412.png)
-![LOC107446349](results/isoforms/isoform_LOC107446349.png)
-![LOC107449306](results/isoforms/isoform_LOC107449306.png)
-![LOC107452495](results/isoforms/isoform_LOC107452495.png)
-![LOC107455433](results/isoforms/isoform_LOC107455433.png)
-![LOC107457063](results/isoforms/isoform_LOC107457063.png)
+![LOC107436484](Results/isoforms/isoform_LOC107436484.png)
+![LOC107438554](Results/isoforms/isoform_LOC107438554.png)
+![LOC107439500](Results/isoforms/isoform_LOC107439500.png)
+![LOC107442251](Results/isoforms/isoform_LOC107442251.png)
+![LOC107442412](Results/isoforms/isoform_LOC107442412.png)
+![LOC107446349](Results/isoforms/isoform_LOC107446349.png)
+![LOC107449306](Results/isoforms/isoform_LOC107449306.png)
+![LOC107452495](Results/isoforms/isoform_LOC107452495.png)
+![LOC107455433](Results/isoforms/isoform_LOC107455433.png)
+![LOC107457063](Results/isoforms/isoform_LOC107457063.png)
 
 These are per-sample, whole-embryo isoform proportions rather than cluster-resolved — a natural extension would be checking whether any of these switches track a specific cell population from the atlas above rather than the whole embryo uniformly.
 
